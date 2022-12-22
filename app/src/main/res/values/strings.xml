@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Trice Metics</string>
+    <string name="home">Home</string>
+    <string name="shop">Shop</string>
+    <string name="cart">Cart</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="beauty_products">Beauty Products</string>
+    <string name="user_profile">User Profile</string>
+    <string name="makeup">Makeup session</string>
+    <string name="search">Search products</string>
+    <string name="category">Product category</string>
+    <string name="welcome">Welcome!</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="log_in_with_email">Log in</string>
+    <string name="google_log_in">Sign in with Google</string>
+    <string name="facebook_log_in">Sign in with Facebook</string>
+    <string name="no_account">Are you new here?</string>
+    <string name="exit_app">Exit</string>
+    <string name="signed_in">Sign in successful</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="not_a_user">Looks like you don\'t have an account.\nLet\'s create a new account for you</string>
+    <string name="example_email">ezekieldavid036@gmail.com</string>
+    <string name="name">Name</string>
+    <string name="terms">"By selecting Sign up below, I agree to "</string>
+    <string name="terms_conditions">Terms of Service and Privacy policy.</string>
+    <string name="signed_in_failed">Sign up failed. Try again</string>
+    <string name="cancel_sign_up">Are you sure you want to cancel Sign up?</string>
+    <string name="account_not_found">Account not found. Please sign up first!</string>
+    <string name="items_stock">No. of item in Stock</string>
+    <string name="out_of_stock">Out of stock!!\nItem not currently available</string>
+    <string name="sign_out">Sign out</string>
+    <string name="username">Username</string>
+</resources>

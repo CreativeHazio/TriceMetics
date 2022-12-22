@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".activities.ProductByCategoryActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/product_by_category_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="10dp"
+        android:background="@color/pressed_flower"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="5dp">
+
+        <TextView
+            android:id="@+id/product_by_category_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_gravity="center"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <include
+        android:id="@+id/empty_data_parent"
+        layout="@layout/out_of_stock_view"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="500dp"/>
+
+    <com.creativehazio.tricesignature.adapters.EmptyRecyclerView
+        android:id="@+id/product_by_category_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.creativehazio.tricesignature.adapters.EmptyRecyclerView>
+
+</LinearLayout>
