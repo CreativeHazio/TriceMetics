@@ -1,7 +1,1 @@
 /build
-/generated/
-debug
-google-services.json
-*.pem
-*.ppk
-/.idea

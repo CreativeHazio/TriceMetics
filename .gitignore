@@ -3,6 +3,11 @@
 *.ppk
 .gradle
 .idea/
+debug
+*.pem
+*.ppk
+generated
+app/google-services.json
 /local.properties
 /.idea/caches
 /.idea/libraries
